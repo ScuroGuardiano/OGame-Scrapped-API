@@ -1,0 +1,25 @@
+{
+  "name": "ogame-scrapped-api",
+  "version": "0.1.0",
+  "description": "kurwa nie wiem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -p . && node index"
+  },
+  "keywords": [
+    "ogame",
+    "ogame-api",
+    "ogame-cheat",
+    "ogame-bot",
+    "gameforge-is-shit"
+  ],
+  "author": "ScuroGuardiano",
+  "license": "MIT",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/puppeteer": "^1.12.3",
+    "dotenv": "^7.0.0",
+    "puppeteer": "^1.14.0"
+  }
+}

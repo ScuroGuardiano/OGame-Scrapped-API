@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "sourceMap": false,
+        "outDir": "build",
+        "noImplicitAny": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "allowUnreachableCode": false,
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "incremental": true
+    },
+    "include": [
+        "src"
+    ],
+    "compileOnSave": true
+}
