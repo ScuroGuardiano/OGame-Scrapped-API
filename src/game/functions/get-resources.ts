@@ -1,6 +1,6 @@
 import OGameFunction from "./ogame-function";
 import { Page } from "puppeteer";
-import stringResourceToNumber from "../helpers/str-res-to-num.";
+import stringResourceToNumber from "../helpers/str-res-to-num";
 
 export default new OGameFunction([], async (gamePage: Page) => {
     await Promise.all([

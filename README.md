@@ -5,7 +5,8 @@ My target is to write at least 90% coverage of OGame functionality with this API
 ## Currently done
 * Logging into default server (last played server)
 * Get resources
-* Get resource building
+* Get resource buildings
+* Get station buildings
 
 ## How to launch
 ```sh

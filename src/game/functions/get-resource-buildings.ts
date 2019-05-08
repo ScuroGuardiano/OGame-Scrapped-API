@@ -39,4 +39,4 @@ export default new OGameFunction([
         });
         return ret;
     });
-})
+});

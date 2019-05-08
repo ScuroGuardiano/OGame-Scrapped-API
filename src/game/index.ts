@@ -4,6 +4,7 @@ import { URL } from 'url';
 import getResources from "./functions/get-resources";
 import OGameFunction from "./functions/ogame-function";
 import getResourceBuildings from "./functions/get-resource-buildings";
+import getStationBuildings from "./functions/get-station-buildings";
 
 export default class OGame {
     constructor(private page: Page) {
@@ -20,9 +21,13 @@ export default class OGame {
         await this.makeSureItsOnNeededPage(getResources);
         return getResources.exec(this.page);
     }
-    public async getResourceBuilding() {
+    public async getResourceBuildings() {
         await this.makeSureItsOnNeededPage(getResourceBuildings);
         return getResourceBuildings.exec(this.page);
+    }
+    public async getStationBuildings() {
+        await this.makeSureItsOnNeededPage(getStationBuildings);
+        return getStationBuildings.exec(this.page);
     }
     private async makeSureItsOnNeededPage(fn: OGameFunction<any>) {
         if(fn.canBeExecutedOnPage(this.currentPage))

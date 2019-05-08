@@ -34,6 +34,7 @@ module.exports = async function main() {
     console.log(await gamePage.title());
     let game = new OGame(gamePage);
     console.log(await game.getResources());
-    console.log(await game.getResourceBuilding());
+    console.log(await game.getResourceBuildings());
+    console.log(await game.getStationBuildings());
     await game.switchPage(OGamePages.GALAXY);
 }
